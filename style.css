@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 100;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 2px 2px rgba(28,110,164,0.99);
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+/* Header Styles */
+header {
+    background:linear-gradient(to right,yellow,red);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.intro p{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.intro h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.intro img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+    image-resolution: 2080;
+
+    
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    background-color: #ecf0f1;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-image: url(\webp1);
+}
+.list li:hover{
+    cursor: pointer;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.contact a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+.contact p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.loc{
+    background-color: rgb(160, 240, 160);
+    border: 0;
+    text-align: center;
+    box-shadow: 5px, 20px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.loc h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300px;
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+.loc p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: auto;
+}
+.loc p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.photos {
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    font-weight: bold;
+}
+body{
+    padding: 50px;
+    padding-top: 0%;
+    
+   
+  
+}
+nav{
+    display: inline;
+}
+.navigation{
+    padding: 10px;
+    border: auto;
+    border-radius: 30px;
+    display: inline;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 10px;
+
+}
+/* Location Section */
+.loc h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.loc iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.navigation p:hover{
+    display: inline;
+}
+.intro div{
+    padding-left: 20px;
+    text-align: end;
+    padding: 30px;
+    display: inline;
+
+}
+.intro nav{
+    background-color: rgb(48, 219, 48);
+    border-radius: 10px;
+    border: 0px;
+    size: 80px;
+    display: inline;
+    
+
+}
+
+
+.intro {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav ul {
+    list-style: none;  /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Center align the menu */
+    background-color: #333;   /* Dark background for the nav bar */
+}
+
+.nav ul li {
+    margin: 0 15px;  /* Spacing between the menu items */
+}
+
+.nav ul li a {
+    text-decoration: none;   /* Remove underline from links */
+    color: white;            /* Text color */
+    font-size: 16px;         /* Font size */
+    padding: 14px 20px;      /* Padding inside each link */
+    display: block;          /* Make the links fill their container */
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.nav ul li a:hover {
+    background-color: #555;  /* Background color on hover */
+    border-radius: 5px;      /* Rounded corners on hover */
+}
+
+/* Optional: Add some theme-specific styling */
+.nav ul li a {
+    font-family: 'Comic Sans MS', cursive, sans-serif;  /* Fun, playful font for costume shop */
+    text-transform: uppercase;   /* Make text uppercase */
+    letter-spacing: 1px;         /* Increase space between letters */
+}
+/* Center-align the content in the 'desc' section */
+.desc {
+    text-align: center;
+    margin: auto;   /* Center the section with margin auto */
+    max-width: 800px;    /* Optional: Restrict the width to make it more readable */
+    padding: auto;       /* Add some padding for better spacing */
+    background-color: #fff;  /* Optional: Add a background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a subtle shadow */
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;  /* Optional: Add rounded corners */
+}
+
+/* Center the image within the section */
+.desc img {
+    display: block;
+    margin: 20px auto;   /* Center the image with margin auto */
+    max-width: 100%;     /* Ensure the image is responsive */
+    height: auto;        /* Maintain aspect ratio */
+}
+
+/* Style the headings */
+.desc h2 {
+    color: #4CAF50;      /* Use a primary color */
+    margin-bottom: 20px;
+}
+
+/* Style the paragraphs */
+.desc p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 10px;
+}
